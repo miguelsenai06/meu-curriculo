@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Desenvolvedor Web</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Miguel Almeida - Desenvolvedor Web</h1>
+
+        <nav>
+            <a href="#sobre">Sobre</a> |
+            <a href="#projetos">Projetos</a> |
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+
+            <img src="perfil.jpg"
+                 alt="Foto de perfil"
+                 width="150"
+                 height="150"
+                 style="object-fit: cover;">
+
+            <p>
+                Olá! Meu nome é Miguel Almeida e sou desenvolvedor web.
+                Tenho interesse em criação de sites, sistemas e novas tecnologias.
+            </p>
+
+            <h3>Minhas Habilidades</h3>
+
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Projeto</th>
+                        <th>Tecnologias</th>
+                        <th>Status</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Site de Loja</td>
+                        <td>HTML e CSS</td>
+                        <td>Concluído</td>
+                        <td>
+                            <a href="https://github.com/" target="_blank">
+                                Acessar
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Sistema de Cadastro</td>
+                        <td>PHP e MySQL</td>
+                        <td>Em desenvolvimento</td>
+                        <td>
+                            <a href="https://github.com/" target="_blank">
+                                Acessar
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Portfólio Pessoal</td>
+                        <td>HTML5</td>
+                        <td>Concluído</td>
+                        <td>
+                            <a href="https://github.com/" target="_blank">
+                                Acessar
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+
+            <form>
+                <fieldset>
+
+                    <legend>Dados do Contato</legend>
+
+                    <label for="nome">Nome:</label>
+                    <br>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <br><br>
+
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" id="email" name="email" required>
+
+                    <br><br>
+
+                    <label for="assunto">Assunto:</label>
+                    <br>
+
+                    <select id="assunto" name="assunto">
+                        <option value="">Selecione</option>
+                        <option value="projeto">Projeto</option>
+                        <option value="orcamento">Orçamento</option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="outro">Outro</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <br>
+
+                    <textarea id="mensagem"
+                              name="mensagem"
+                              rows="5"
+                              cols="40"></textarea>
+
+                    <br><br>
+
+                    <button type="submit">
+                        Enviar
+                    </button>
+
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>
+            &copy; 2026 Miguel Almeida -
+            Todos os direitos reservados.
+        </p>
+
+        <p>Email: miguel.v.souza7@edu.senai.br</p>
+
+        <p>Telefone: (11) 97876-9657</p>
+    </footer>
+
+</body>
+
+</html>
